@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Size: opens at 4x4 cells (the largest square that fits on virtually every
+  phone home screen), resizable up to the full screen by the user.
+  Pre-Android-12 launchers use minWidth/minHeight: 4 cells = 70*4-30 = 250dp.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="250dp"
+    android:minResizeWidth="180dp"
+    android:minResizeHeight="180dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="4"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:initialLayout="@layout/widget_grid"
+    android:configure="com.gadi.contactgrid.ConfigActivity"
+    android:widgetFeatures="reconfigurable"
+    android:updatePeriodMillis="21600000"
+    android:description="@string/widget_desc" />

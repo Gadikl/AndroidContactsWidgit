@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contact Grid</string>
+    <string name="widget_name">Contact Grid (9)</string>
+    <string name="widget_desc">9 contact photos – tap to call</string>
+    <string name="config_title">Edit contacts</string>
+    <string name="config_hint">Tap a square to choose a contact. Long-press to clear it.</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="call_perm_off">Direct calling is off – tapping a photo will open the dialer. Tap here to allow calls.</string>
+    <string name="contacts_perm_off">Contacts permission is off – photos can\'t be shown. Tap here to allow.</string>
+    <string name="no_number">That contact has no phone number</string>
+    <string name="no_widgets">No Contact Grid widget on your home screen yet.\n\nLong-press the home screen → Widgets → Contact Grid, and drag it to the screen.</string>
+    <string name="pin_widget">Add widget to home screen</string>
+    <string name="choose_widget">Which widget to edit?</string>
+    <string name="widget_n">Widget %1$d</string>
+</resources>

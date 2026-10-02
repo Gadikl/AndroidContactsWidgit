@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 3x3 rounded squares inside the 66dp adaptive-icon safe zone -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M34,34h11v11h-11z M48.5,34h11v11h-11z M63,34h11v11h-11z
+                          M34,48.5h11v11h-11z M48.5,48.5h11v11h-11z M63,48.5h11v11h-11z
+                          M34,63h11v11h-11z M48.5,63h11v11h-11z M63,63h11v11h-11z" />
+</vector>
